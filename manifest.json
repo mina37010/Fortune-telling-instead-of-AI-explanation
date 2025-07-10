@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "おみくじ Google 改変拡張",
+    "version": "1.0",
+    "description": "Google検索の AI要約を非表示にして、おみくじの結果を表示します。",
+    "permissions": ["scripting"],
+    "host_permissions": ["https://www.google.com/*"],
+    "content_scripts": [
+      {
+        "matches": ["https://www.google.com/search*"],
+        "js": ["content.js"],
+        "run_at": "document_idle"
+      }
+    ]
+  }
