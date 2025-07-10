@@ -1,7 +1,5 @@
 # Fortune-telling-instead-of-AI-explanation
-選択したテキストをワンクリックで /tanka(https://いなにわうどん.みんな/tanka) に投稿できる Chrome 拡張です。
-投稿者名も設定すれば自動で入力されます。
-いなにわうどん許諾済み 感謝
+ChromeのAI要約を占いに変えるChrome拡張機能です
 
 ## 機能
 
